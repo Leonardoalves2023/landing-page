@@ -1,0 +1,412 @@
+@media (min-width:1100px) and (max-width:10250px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #cabeca{
+        background-image: linear-gradient(to bottom,black ,rgb(73, 72, 72));
+        color: white;
+        padding: 40px 5px 40px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+     #subtitulo{
+        font-size: 2em;
+        color: white;
+    }
+    p 
+    > span   {
+    color:rgb(206, 203, 16) ;
+    font-size: 1.5em;
+    }
+    
+    div > h1{
+    font-size: 3em;
+    
+    
+    }
+    #linha{
+        border-bottom: solid  rgba(0, 0, 0, 0.37);
+        margin-top: 20px;
+    }
+    img{
+        margin-top: 10px;
+        width: 50%;
+    }
+    
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(58, 57, 57);
+        font-size: 40px;
+        text-align: center;
+    }
+    #preco{
+        color: rgb(23, 129, 23);
+    }
+    #precoprincipal{
+        font-size: 60px;
+    }
+    #titulopreco{
+        font-size: 30px;
+    }
+    a{
+        background-color:rgb(10, 175, 10) ;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding: 14px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        display: inline-block;
+    }
+    #botao{
+        margin-top: 10px;
+        text-align: center;
+    }
+    #blocop > p{
+        line-height: 1.5em;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+        
+    }
+    #blocop{
+        margin-left: 25%;
+        margin-right: 50px;
+
+        
+    }
+    #botaocomprar{
+        margin: auto;
+        display: block;
+        width:350px;
+        font-size: 17px;
+    
+    }
+    .subtituloliberdades
+    {
+        color: black;
+    }
+    #cabecadois{
+        margin-top: 10px;
+        background-color: #313131;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    #Emocional,#Financeira,#geo{
+        width: 40%;
+        border: dashed 4px black;
+        margin: 20px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #Emocional,#Financeira,#geo > p{
+        font-size: 18px;
+    }
+   
+    
+   #grupoliberade{
+    display: flex;
+   }
+   #secaodois h3{
+        color: white;
+        padding: 20px;
+   }
+   #secaodois{
+    background-color: #313131;
+    
+    
+   }
+   #tres{
+    
+    margin-top: 20px;
+   }
+   #tres h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+   }
+   .imagem-do-x
+   {
+    width: 15%;
+    
+    margin-left: 200px;
+    margin-bottom: 20px;
+   }
+
+   #secaodois #conteiner-blocosnegativos{
+    display: flex;
+    
+   }
+   .blocosnegativos{
+    width: 40%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 35px;
+   }
+   #grupodasaulas {
+    
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   #grupodasaulas > #p{
+    margin-left: 5%;
+   }
+
+   #grupodasaulas div{
+    margin: 20px 0px 20px 10px;
+   }
+   #grupodasaulas h4{
+    font-size: 34px;
+    line-height: 1.2em;
+   
+
+   }
+   .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+   }
+   .cabeca-do-livro{
+    font-size: 30px;
+    line-height: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    width: 99.7%;
+    padding: 10px 5px 10px 0;
+    text-align: center;
+   }
+  
+   span > img{
+    width: 95%;
+    height: 100%;
+    
+    
+   }
+   .livrosdaliberadade{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: solid 4px black;
+    margin-top: 20px;
+    width: 35%;
+	height: 80%;
+    box-sizing: border-box;
+   }
+   .preco-dos-livros{
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+   
+   }
+   .redpreco{
+    color: rgb(209, 14, 14);
+   }
+   .legenda-dos-livros{
+    font-size: 20px;
+    font-weight: 400;
+   }
+   .legenda-dos-livros > p{
+    text-align: center;
+   }
+   
+   
+   #grupodasaulas  ul{
+    margin-top: 10px;
+    font-size: 20px;
+    list-style: inside;
+    list-style-type: none;
+    display: flex;
+    
+   }
+   #secaotres > h3{
+    font-weight: 800;
+    font-size: 50px;
+}
+   .modulos{
+    margin-left: 20%;
+   }
+   .parte-do-valor{
+    font-size: 30px;
+   }
+  
+   #paragrafo-resumo-livros{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    font-size: 20px;
+
+   }
+   #paragrafo-resumo-livros > ul{
+    list-style-type: '\❌';
+   }
+   #paragrafo-resumo-livro > p{
+        text-align: justify;
+        
+   }
+   #secaoquatro > img{
+        margin-left: 25%;
+   }
+   #secaoquatro > h2{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 0px 5px 0px;
+    font-size: 30px;
+   }
+   #secaoquatro > a{
+    margin-left: 40%;
+    padding: 1%;
+   }
+#secaocinco{
+    height: 600px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+#area-informacoes{
+    color: black;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: 450px;
+    
+}
+
+#area-informacoes > h3{
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    color: black;
+}
+#area-informacoes > p{
+    font-weight: 800;
+    color: rgb(17, 172, 17);
+}
+#parcelas{
+    font-size: 30px;
+}
+#preco-completo{
+    font-size: 50px;
+}
+#secaocinco > h2{
+    font-size:35px ;
+    padding: 20px 0px 20px 0;
+}
+#secaocinco{
+    margin-top: 20px;
+}
+#area-informacoes{
+    list-style: inside;
+}
+#secaocinco ul{
+    list-style-type: '\✔️';
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+#secaoseis{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(237, 238, 240);
+    height: 550px;
+    
+}
+#secaoseis h2{
+    
+    padding-top: 20px;
+font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(247, 74, 74);
+}
+#secaoseis p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+#secaoseis img{
+    width: 250px;
+    margin-left: 40%;
+}
+#secaoseis a{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#secaosete{
+    
+    background-color: #313131;
+    color: white;
+    font-family: "Roboto", Sans-serif;
+}
+#secaosete  h2{
+    
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+}
+#bloco-perguntas{
+    margin: 25px 0px 0px 5px;
+    list-style-type: none;
+
+    
+}
+#secaosete > ul {
+    list-style-type: none;
+}
+
+#secaosete li {
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: solid 1px white;
+    width: 95%;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 8px;
+    display: flex; /* Adicionado para usar o modelo de layout flexível */
+}
+
+#secaosete li span {
+    margin-right: 3px; /* Ajuste a margem conforme necessário para separar o ícone do texto */
+    color: white;
+    
+    
+}
+
+#conteiner-perguntas {
+    display: inline;
+    
+    width: 80%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    text-align: center;
+}
+#conteiner-rodape{
+    margin: 40px 0 40px 0;
+}
+
+
+
+}
+
